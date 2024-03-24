@@ -3,6 +3,7 @@ layout: academic
 author: Haining Luo, Yiannis Demiris
 affiliation: Personal Robotics Lab, Imperial College London
 site.project-affiliation.url: www.google.com
+site.show_github: false
 ---
 
 **Abstract**: Robot Shoe Lacing is a challenging manipulation task due to the deformation of the shoelace and the resulting intricate shoelace structures. Existing methods for tracking Deformable Linear Objects are primarily demonstrated on relatively simple tasks involving objects with simple geometries. In this work, we explore different approaches to shoelace tracking and propose the Tracking Shoelaces algorithm which combines probabilistic registration with Digital Twins. One of the key requirements for tracking in Shoe Lacing is to maintain the relation between the shoelace and the eyelets. Leveraging the Digital Twins, our algorithm reliably identifies collisions and prevents the shoelace from escaping the eyelets, thereby preserving the topological structure of the shoelace. The performance of the proposed algorithm is compared against popular Deformable Linear Object tracking algorithms with real robot data, simulated data and human demonstration data. Our experiments show that our algorithm consistently preserves the shoelace-eyelet relation across all scenarios.
